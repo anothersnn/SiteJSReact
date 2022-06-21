@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import stPhotoForHome from '../Assets/1stPhotoForHome.jpg';
 import ndPhotoForHome from '../Assets/2ndPhotoForHome.jpg';
+import rdPhotoForHome from '../Assets/3rdPhotoForHome.jpg';
 
 export default class CarouselBox extends Component {
     render() {
@@ -14,9 +15,9 @@ export default class CarouselBox extends Component {
                         alt='FirstPhoto'
                     />
                     <Carousel.Caption>
-                        <h3> First Photo for Site </h3>
-                        <p> Hello everyone, 
-                            I glad to see you </p>
+                        <h3> Hey! I Am </h3>
+                        <h3> Stephan NikitiN </h3>
+                        <p> Also known as anotherSNN </p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -27,20 +28,20 @@ export default class CarouselBox extends Component {
                         alt='SecondPhoto'
                     />
                     <Carousel.Caption>
-                        <h3> Second Photo for Site </h3>
-                        <p> Do you have any questions? </p>
+                        <h3> 2nd year student of MTUCI </h3>
+                        <p> An aspiring developer and designer </p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img 
                         className='d-block w-100'
-                        src={ stPhotoForHome }
-                        alt='FirstPhoto'
+                        src={ rdPhotoForHome }
+                        alt='ThirdPhoto'
                     />
                     <Carousel.Caption>
-                        <h3> First Photo for Site </h3>
-                        <p> Hello everyone, i glad to see you </p>
+                        <h3> Contact </h3>
+                        <p> ar2d1@yandex.ru </p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
